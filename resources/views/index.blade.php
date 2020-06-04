@@ -121,9 +121,43 @@
 <div>
     <img  class="akarajobads" src="{{asset('images/akarajobads.png')}}" alt="">
 </div>
-<div class="search">
+<div class="container-fluid border-search-form">
+    <form class="form-inline">
+        
 
+              <select data-trigger="" name="choices-single-defaul" class="categoriesselect">
+                <option placeholder="">All Job Categories</option>
+                <option>Singer/songwriter</option>
+                <option>Music producer</option>
+                <option>Art curator</option>
+                <option>Animator/video game designer</option>
+                <option>Filmmaker</option>
+                <option>Graphic designer</option>
+                <option>Fashion designer</option>
+              </select>
+              
+              <select data-trigger="" name="choices-single-defaul" class="categoriesselect">
+                <option placeholder="">All Location</option>
+                <option>Phnom Penh</option>
+                <option>Banteay Meanchey</option>
+                <option>Battambang</option>
+                <option>Kampong Cham</option>
+                <option>Kampong Chhnang/option>
+                <option>Kampong Speu</option>
+                <option>Kampong Thom</option>
+              </select>
+              
+              <select data-trigger="" name="choices-single-defaul" class="categoriesselect">
+                <option placeholder="">All Job Times</option>
+                <option>Full-Time</option>
+                <option>Part-Time</option>
+              </select>
+        <input class="form-control mr-sm-2 input-search input-search-add round-input-search" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0 round-button" type="submit">Go</button>
+      </form>
 </div>
+    
+
 <main>
     <div class="container" >
     <ul class="list-group">

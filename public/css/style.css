@@ -280,6 +280,24 @@ footer .fa-skype {
     text-decoration: none;
   }
 
+/* search styles */
+.container-fluid .form-inline{
+    margin: 50px;
+    text-align: center;
+}
+.border-search-form{
+    border: 1px solid gainsboro;
+    margin-bottom: 15px;
+}
+.round-button{
+    border: 1px solid gainsboro;
+    border-radius: 15px;
+    width: 90px;
+    background-color: white ;
+}
+.round-input-search{
+    border-radius: 15px;
+}
 @media (min-width: 1200px){
     .form-inline .input-group {
         width: 300px;
@@ -302,7 +320,27 @@ footer .fa-skype {
     .navbar .nav .btn-primary, .navbar .nav .btn-primary:active {
         display: block;
     }
-    .akarajobads{
-        width:500px;
+    /* list lastest job */
+    .list-group{
+        width: 100%;
     }
+    .akarajobads{
+        width:100%;
+    }
+    .categoriesselect{
+        display: block;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .input-search{
+        margin-bottom: 20px;
+    }
+}
+@media (min-width: 768px){
+    .categoriesselect{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+   
 }
