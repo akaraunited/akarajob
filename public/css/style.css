@@ -302,4 +302,7 @@ footer .fa-skype {
     .navbar .nav .btn-primary, .navbar .nav .btn-primary:active {
         display: block;
     }
+    .akarajobads{
+        width:500px;
+    }
 }

@@ -118,7 +118,12 @@
 		</ul>
 	</div>
 </nav>
+<div>
+    <img  class="akarajobads" src="{{asset('images/akarajobads.png')}}" alt="">
+</div>
+<div class="search">
 
+</div>
 <main>
     <div class="container" >
     <ul class="list-group">
