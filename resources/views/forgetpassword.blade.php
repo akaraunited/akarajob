@@ -74,14 +74,13 @@
 								<p>Login via
 									<a href="#" class=""><i class="fa fa-facebook"></i> Facebook</a>
 								</p>
-								<a href="{{ url('/forgetpassword')}}">Forgot Your password?</a>
+								<a href="#">Forgot Your password?</a>
 							</div>
 						</form>
 					</li>
 				</ul>
 			</li>
 			<li class="nav-item">
-                
 				<a href="#" data-toggle="dropdown" class="nav-link dropdown-toggle"><span style="margin-right:20px;">/</span>Register</a>
 				<ul class="dropdown-menu form-wrapper">					
 					<li>
@@ -157,140 +156,27 @@
         <button class="btn btn-outline-success my-2 my-sm-0 round-button" type="submit">Go</button>
       </form>
 </div>
-    
+    <main>
 
-<main>
-    <div class="container" >
-    <ul class="list-group">
-        <h4>List Lastest Job</h4>
-    <li>
-        <div class="panel panel-default">
-            <div class="panel-body">
-                <div class="panel-info">
-                    <h5><strong>Executive Manager</strong></h5>
-                    <h6><strong>salary : 1500 $</strong></h6>
-                </div>
-                <div class="panel-more1">
-                    <h5><strong>Phnom Penh</strong></h5>
-                    <h6>expire : 12/06/2020</h6>
-                </div>
-                <div class="panel-more1">
-                    <h5><strong>Full-Time</strong></h5>
-                </div>
-                <div class="panel-more1">
-                    <img src='{{asset('images/wing.png') }}'/>
-                    <br /><span>company : Wing Bank</span>
-                </div>
-            </div>
-        </div>
-    </li>
-    <li>
-        <div class="panel panel-default">
-            <div class="panel-body">
-                <div class="panel-info">
-                    <h5><strong>Executive Manager</strong></h5>
-                    <h6><strong>salary : 1500 $</strong></h6>
-                </div>
-                <div class="panel-more1">
-                    <h5><strong>Phnom Penh</strong></h5>
-                    <h6>expire : 12/06/2020</h6>
-                </div>
-                <div class="panel-more1">
-                    <h5><strong>Full-Time</strong></h5>
-                </div>
-                <div class="panel-more1">
-                    <img src='{{asset('images/wing.png') }}'/>
-                    <br /><span>company : Wing Bank</span>
-                </div>
-            </div>
-        </div>
-    </li>
-    <li>
-        <div class="panel panel-default">
-            <div class="panel-body">
-                <div class="panel-info">
-                    <h5><strong>Executive Manager</strong></h5>
-                    <h6><strong>salary : 1500 $</strong></h6>
-                </div>
-                <div class="panel-more1">
-                    <h5><strong>Phnom Penh</strong></h5>
-                    <h6>expire : 12/06/2020</h6>
-                </div>
-                <div class="panel-more1">
-                    <h5><strong>Full-Time</strong></h5>
-                </div>
-                <div class="panel-more1">
-                    <img src='{{asset('images/wing.png') }}'/>
-                    <br /><span>company : Wing Bank</span>
-                </div>
-            </div>
-        </div>
-    </li>
-    <li>
-        <div class="panel panel-default">
-            <div class="panel-body">
-                <div class="panel-info">
-                    <h5><strong>Executive Manager</strong></h5>
-                    <h6><strong>salary : 1500 $</strong></h6>
-                </div>
-                <div class="panel-more1">
-                    <h5><strong>Phnom Penh</strong></h5>
-                    <h6>expire : 12/06/2020</h6>
-                </div>
-                <div class="panel-more1">
-                    <h5><strong>Full-Time</strong></h5>
-                </div>
-                <div class="panel-more1">
-                    <img src='{{asset('images/wing.png') }}'/>
-                    <br /><span>company : Wing Bank</span>
-                </div>
-            </div>
-        </div>
-    </li>
-    <li>
-        <div class="panel panel-default">
-            <div class="panel-body">
-                <div class="panel-info">
-                    <h5><strong>Executive Manager</strong></h5>
-                    <h6><strong>salary : 1500 $</strong></h6>
-                </div>
-                <div class="panel-more1">
-                    <h5><strong>Phnom Penh</strong></h5>
-                    <h6>expire : 12/06/2020</h6>
-                </div>
-                <div class="panel-more1">
-                    <h5><strong>Full-Time</strong></h5>
-                </div>
-                <div class="panel-more1">
-                    <img src='{{asset('images/wing.png') }}'/>
-                    <br /><span>company : Wing Bank</span>
-                </div>
-            </div>
-        </div>
-    </li>
-    <li>
-        <div class="panel panel-default">
-            <div class="panel-body">
-                <div class="panel-info">
-                    <h5><strong>Executive Manager</strong></h5>
-                    <h6><strong>salary : 1500 $</strong></h6>
-                </div>
-                <div class="panel-more1">
-                    <h5><strong>Phnom Penh</strong></h5>
-                    <h6>expire : 12/06/2020</h6>
-                </div>
-                <div class="panel-more1">
-                    <h5><strong>Full-Time</strong></h5>
-                </div>
-                <div class="panel-more1">
-                    <img src='{{asset('images/wing.png') }}'/>
-                    <br /><span>company : Wing Bank</span>
-                </div>
-            </div>
-        </div>
-    </li>
-</ul>
-</div>
+        <ul class="form-wrapper" style="width: 50%; margin:auto;margin-bottom:20px;border:1px solid #e7e7e7;padding:50px 40px 200px 40px;">					
+            
+                <form action="/examples/actions/confirmation.php" method="post">
+                    <h3 class="hint-text" style="text-align: left; text-decoration:none;">Forget Your Password</h3>
+                    <!-- <div class="form-group social-btn clearfix">
+                        <a href="#" class="btn btn-primary pull-left"><i class="fa fa-facebook"></i> Facebook</a>
+                        <a href="#" class="btn btn-info pull-right"><i class="fa fa-twitter"></i> Twitter</a>
+                    </div> -->
+                    <!-- <div class="or-seperator"><b>or</b></div> -->
+                    <div class="form-group">
+                        <input type="text" class="form-control round-input-search" placeholder="Email" required="required">
+                    </div>
+                    <input style="width: 90px !important;background-color:rgb(62, 62, 238);border-color:rgb(62, 62, 238);" type="submit" class="btn btn-primary btn-block round-input-search" value="Recover">
+                    <div class="form-footer">
+                        
+                    </div>
+                </form>
+           
+        </ul>
     </main>
 
     <footer>
