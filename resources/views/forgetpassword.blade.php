@@ -32,9 +32,9 @@
 	<!-- Collection of nav links, forms, and other content for toggling -->
 	<div id="navbarCollapse" class="collapse navbar-collapse justify-content-start">
 		<ul class="nav navbar-nav">
-			<li class="nav-item"><a href="#" class="nav-link">Jobs</a></li>
-			<li class="nav-item"><a href="#" class="nav-link">How to write CV</a></li>
-			<li class="nav-item"><a href="#" class="nav-link">About Us</a></li>
+			<li class="nav-item"><a href="{{ url('/')}}" class="nav-link">Jobs</a></li>
+			<li class="nav-item"><a href="{{ url('/howtowritecv')}}" class="nav-link">How to write CV</a></li>
+			<li class="nav-item"><a href="{{ url('/aboutus')}}" class="nav-link">About Us</a></li>
 			<!-- <li class="nav-item dropdown">
 				<a data-toggle="dropdown" class="nav-link dropdown-toggle" href="#">Services <b class="caret"></b></a>
 				<ul class="dropdown-menu">					

@@ -19,3 +19,13 @@ Route::get('/', function () {
 Route::get('/forgetpassword',function(){
     return view('forgetpassword');
 });
+Route::get('/howtowritecv',function(){
+    return view('howtowritecv');
+});
+Route::get('/aboutus',function(){
+    return view('aboutus');
+});
+Route::get('/howtowritecvsingle',function(){
+    return view('howtowritecvsingle');
+});
+

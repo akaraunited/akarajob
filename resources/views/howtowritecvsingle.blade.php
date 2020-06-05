@@ -159,139 +159,42 @@
 </div>
     
 
-<main>
-    <div class="container" >
-    <ul class="list-group">
-        <h4>List Lastest Job</h4>
-    <li>
-        <div class="panel panel-default">
-            <div class="panel-body">
-                <div class="panel-info">
-                    <h5><strong>Executive Manager</strong></h5>
-                    <h6><strong>salary : 1500 $</strong></h6>
-                </div>
-                <div class="panel-more1">
-                    <h5><strong>Phnom Penh</strong></h5>
-                    <h6>expire : 12/06/2020</h6>
-                </div>
-                <div class="panel-more1">
-                    <h5><strong>Full-Time</strong></h5>
-                </div>
-                <div class="panel-more1">
-                    <img src='{{asset('images/wing.png') }}'/>
-                    <br /><span>company : Wing Bank</span>
-                </div>
-            </div>
+<div class="container" style="width: 80%;margin-bottom:200px;">
+    <h3>How to Write a Cover Letter for a Recruitment Consultant</h3>
+    <h5>published: 2015-12-04</h5>
+    <div>
+        <div style="margin:auto;padding:20px;">
+            <p>   Recruitment consultants work with businesses to match job seekers to open positions. 
+                When they believe a certain candidate will match a particular job, they forward the applicant's 
+                information to the business for further review. Writing a cover letter to a recruiter is therefore
+                 your first step in getting a job, and you can take a few steps to make sure that cover letter is perfect.</p>
+                 <img style="width:80%" src="https://unsplash.com/photos/qkCTQFXidV8/download?force=true&w=640" alt="">
         </div>
-    </li>
-    <li>
-        <div class="panel panel-default">
-            <div class="panel-body">
-                <div class="panel-info">
-                    <h5><strong>Executive Manager</strong></h5>
-                    <h6><strong>salary : 1500 $</strong></h6>
-                </div>
-                <div class="panel-more1">
-                    <h5><strong>Phnom Penh</strong></h5>
-                    <h6>expire : 12/06/2020</h6>
-                </div>
-                <div class="panel-more1">
-                    <h5><strong>Full-Time</strong></h5>
-                </div>
-                <div class="panel-more1">
-                    <img src='{{asset('images/wing.png') }}'/>
-                    <br /><span>company : Wing Bank</span>
-                </div>
-            </div>
+        <div style="margin:auto;padding:20px;">
+            <p>   Recruitment consultants work with businesses to match job seekers to open positions. 
+                When they believe a certain candidate will match a particular job, they forward the applicant's 
+                information to the business for further review. Writing a cover letter to a recruiter is therefore
+                 your first step in getting a job, and you can take a few steps to make sure that cover letter is perfect.</p>
+                 <img style="width:80%" src="https://unsplash.com/photos/qkCTQFXidV8/download?force=true&w=640" alt="">
         </div>
-    </li>
-    <li>
-        <div class="panel panel-default">
-            <div class="panel-body">
-                <div class="panel-info">
-                    <h5><strong>Executive Manager</strong></h5>
-                    <h6><strong>salary : 1500 $</strong></h6>
-                </div>
-                <div class="panel-more1">
-                    <h5><strong>Phnom Penh</strong></h5>
-                    <h6>expire : 12/06/2020</h6>
-                </div>
-                <div class="panel-more1">
-                    <h5><strong>Full-Time</strong></h5>
-                </div>
-                <div class="panel-more1">
-                    <img src='{{asset('images/wing.png') }}'/>
-                    <br /><span>company : Wing Bank</span>
-                </div>
-            </div>
+        <div style="margin:auto;padding:20px;">
+            <p>   Recruitment consultants work with businesses to match job seekers to open positions. 
+                When they believe a certain candidate will match a particular job, they forward the applicant's 
+                information to the business for further review. Writing a cover letter to a recruiter is therefore
+                 your first step in getting a job, and you can take a few steps to make sure that cover letter is perfect.</p>
+                 <img style="width:80%" src="https://unsplash.com/photos/qkCTQFXidV8/download?force=true&w=640" alt="">
         </div>
-    </li>
-    <li>
-        <div class="panel panel-default">
-            <div class="panel-body">
-                <div class="panel-info">
-                    <h5><strong>Executive Manager</strong></h5>
-                    <h6><strong>salary : 1500 $</strong></h6>
-                </div>
-                <div class="panel-more1">
-                    <h5><strong>Phnom Penh</strong></h5>
-                    <h6>expire : 12/06/2020</h6>
-                </div>
-                <div class="panel-more1">
-                    <h5><strong>Full-Time</strong></h5>
-                </div>
-                <div class="panel-more1">
-                    <img src='{{asset('images/wing.png') }}'/>
-                    <br /><span>company : Wing Bank</span>
-                </div>
-            </div>
+        <div style="margin:auto;padding:20px;">
+            <p>   Recruitment consultants work with businesses to match job seekers to open positions. 
+                When they believe a certain candidate will match a particular job, they forward the applicant's 
+                information to the business for further review. Writing a cover letter to a recruiter is therefore
+                 your first step in getting a job, and you can take a few steps to make sure that cover letter is perfect.</p>
+                 <img style="width:80%" src="https://unsplash.com/photos/qkCTQFXidV8/download?force=true&w=640" alt="">
         </div>
-    </li>
-    <li>
-        <div class="panel panel-default">
-            <div class="panel-body">
-                <div class="panel-info">
-                    <h5><strong>Executive Manager</strong></h5>
-                    <h6><strong>salary : 1500 $</strong></h6>
-                </div>
-                <div class="panel-more1">
-                    <h5><strong>Phnom Penh</strong></h5>
-                    <h6>expire : 12/06/2020</h6>
-                </div>
-                <div class="panel-more1">
-                    <h5><strong>Full-Time</strong></h5>
-                </div>
-                <div class="panel-more1">
-                    <img src='{{asset('images/wing.png') }}'/>
-                    <br /><span>company : Wing Bank</span>
-                </div>
-            </div>
-        </div>
-    </li>
-    <li>
-        <div class="panel panel-default">
-            <div class="panel-body">
-                <div class="panel-info">
-                    <h5><strong>Executive Manager</strong></h5>
-                    <h6><strong>salary : 1500 $</strong></h6>
-                </div>
-                <div class="panel-more1">
-                    <h5><strong>Phnom Penh</strong></h5>
-                    <h6>expire : 12/06/2020</h6>
-                </div>
-                <div class="panel-more1">
-                    <h5><strong>Full-Time</strong></h5>
-                </div>
-                <div class="panel-more1">
-                    <img src='{{asset('images/wing.png') }}'/>
-                    <br /><span>company : Wing Bank</span>
-                </div>
-            </div>
-        </div>
-    </li>
-</ul>
+        
+    </div>
+    
 </div>
-    </main>
 
     <footer>
         <div class="container-fluid">

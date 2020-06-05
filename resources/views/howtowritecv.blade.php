@@ -17,6 +17,11 @@
 <!-- internal style import -->
 <link rel="stylesheet" href="{{asset('css/style.css') }}">
 
+<style>
+    .list-group li {
+    border: 1px solid rgb(170, 166, 172);
+}
+</style>
 </head> 
 <body>
 <nav class="navbar navbar-default navbar-expand-lg navbar-light">
@@ -158,137 +163,90 @@
       </form>
 </div>
     
-
 <main>
     <div class="container" >
-    <ul class="list-group">
-        <h4>List Lastest Job</h4>
+        <div><h4 style="border: 1px solid rgb(170, 166, 172);width:300px;padding:20px;margin-bottom:0px;">CV and Application</h4></div>
+    <ul class="list-group" style="border-radius: 0%;border: 1px solid rgb(170, 166, 172);">
+
     <li>
+        <div class="panel-more1">
+            <img style="margin-top:15px;" src='{{asset('images/wing.png') }}'/>
+        </div>
         <div class="panel panel-default">
             <div class="panel-body">
                 <div class="panel-info">
-                    <h5><strong>Executive Manager</strong></h5>
-                    <h6><strong>salary : 1500 $</strong></h6>
-                </div>
-                <div class="panel-more1">
-                    <h5><strong>Phnom Penh</strong></h5>
-                    <h6>expire : 12/06/2020</h6>
-                </div>
-                <div class="panel-more1">
-                    <h5><strong>Full-Time</strong></h5>
-                </div>
-                <div class="panel-more1">
-                    <img src='{{asset('images/wing.png') }}'/>
-                    <br /><span>company : Wing Bank</span>
+                    <h5><strong><a href="{{ url('/howtowritecvsingle')}}">How to Write a Cover Letter for a Recruitment Consultant</a></strong></h5>
+                    <h6>Recruitment consultants work with businesses to match job seekers to open positions.</h6>
                 </div>
             </div>
         </div>
     </li>
     <li>
+        <div class="panel-more1">
+            <img style="margin-top:15px;" src='{{asset('images/wing.png') }}'/>
+        </div>
         <div class="panel panel-default">
             <div class="panel-body">
                 <div class="panel-info">
-                    <h5><strong>Executive Manager</strong></h5>
-                    <h6><strong>salary : 1500 $</strong></h6>
-                </div>
-                <div class="panel-more1">
-                    <h5><strong>Phnom Penh</strong></h5>
-                    <h6>expire : 12/06/2020</h6>
-                </div>
-                <div class="panel-more1">
-                    <h5><strong>Full-Time</strong></h5>
-                </div>
-                <div class="panel-more1">
-                    <img src='{{asset('images/wing.png') }}'/>
-                    <br /><span>company : Wing Bank</span>
+                    <h5><strong><a href="{{ url('/howtowritecvsingle')}}">How to Write a Cover Letter for a Recruitment Consultant</a></strong></h5>
+                    <h6>Recruitment consultants work with businesses to match job seekers to open positions.</h6>
                 </div>
             </div>
         </div>
     </li>
     <li>
+        <div class="panel-more1">
+            <img style="margin-top:15px;" src='{{asset('images/wing.png') }}'/>
+        </div>
         <div class="panel panel-default">
             <div class="panel-body">
                 <div class="panel-info">
-                    <h5><strong>Executive Manager</strong></h5>
-                    <h6><strong>salary : 1500 $</strong></h6>
-                </div>
-                <div class="panel-more1">
-                    <h5><strong>Phnom Penh</strong></h5>
-                    <h6>expire : 12/06/2020</h6>
-                </div>
-                <div class="panel-more1">
-                    <h5><strong>Full-Time</strong></h5>
-                </div>
-                <div class="panel-more1">
-                    <img src='{{asset('images/wing.png') }}'/>
-                    <br /><span>company : Wing Bank</span>
+                    <h5><strong><a href="{{ url('/howtowritecvsingle')}}">How to Write a Cover Letter for a Recruitment Consultant</a></strong></h5>
+                    <h6>Recruitment consultants work with businesses to match job seekers to open positions.</h6>
                 </div>
             </div>
         </div>
     </li>
     <li>
+        <div class="panel-more1">
+            <img style="margin-top:15px;" src='{{asset('images/wing.png') }}'/>
+        </div>
         <div class="panel panel-default">
             <div class="panel-body">
                 <div class="panel-info">
-                    <h5><strong>Executive Manager</strong></h5>
-                    <h6><strong>salary : 1500 $</strong></h6>
-                </div>
-                <div class="panel-more1">
-                    <h5><strong>Phnom Penh</strong></h5>
-                    <h6>expire : 12/06/2020</h6>
-                </div>
-                <div class="panel-more1">
-                    <h5><strong>Full-Time</strong></h5>
-                </div>
-                <div class="panel-more1">
-                    <img src='{{asset('images/wing.png') }}'/>
-                    <br /><span>company : Wing Bank</span>
+                    <h5><strong><a href="{{ url('/howtowritecvsingle')}}">How to Write a Cover Letter for a Recruitment Consultant</a></strong></h5>
+                    <h6>Recruitment consultants work with businesses to match job seekers to open positions.</h6>
                 </div>
             </div>
         </div>
     </li>
     <li>
+        <div class="panel-more1">
+            <img style="margin-top:15px;" src='{{asset('images/wing.png') }}'/>
+        </div>
         <div class="panel panel-default">
             <div class="panel-body">
                 <div class="panel-info">
-                    <h5><strong>Executive Manager</strong></h5>
-                    <h6><strong>salary : 1500 $</strong></h6>
-                </div>
-                <div class="panel-more1">
-                    <h5><strong>Phnom Penh</strong></h5>
-                    <h6>expire : 12/06/2020</h6>
-                </div>
-                <div class="panel-more1">
-                    <h5><strong>Full-Time</strong></h5>
-                </div>
-                <div class="panel-more1">
-                    <img src='{{asset('images/wing.png') }}'/>
-                    <br /><span>company : Wing Bank</span>
+                    <h5><strong><a href="{{ url('/howtowritecvsingle')}}">How to Write a Cover Letter for a Recruitment Consultant</a></strong></h5>
+                    <h6>Recruitment consultants work with businesses to match job seekers to open positions.</h6>
                 </div>
             </div>
         </div>
     </li>
     <li>
+        <div class="panel-more1">
+            <img style="margin-top:15px;" src='{{asset('images/wing.png') }}'/>
+        </div>
         <div class="panel panel-default">
             <div class="panel-body">
                 <div class="panel-info">
-                    <h5><strong>Executive Manager</strong></h5>
-                    <h6><strong>salary : 1500 $</strong></h6>
-                </div>
-                <div class="panel-more1">
-                    <h5><strong>Phnom Penh</strong></h5>
-                    <h6>expire : 12/06/2020</h6>
-                </div>
-                <div class="panel-more1">
-                    <h5><strong>Full-Time</strong></h5>
-                </div>
-                <div class="panel-more1">
-                    <img src='{{asset('images/wing.png') }}'/>
-                    <br /><span>company : Wing Bank</span>
+                    <h5><strong><a href="{{ url('/howtowritecvsingle')}}">How to Write a Cover Letter for a Recruitment Consultant</a></strong></h5>
+                    <h6>Recruitment consultants work with businesses to match job seekers to open positions.</h6>
                 </div>
             </div>
         </div>
     </li>
+
 </ul>
 </div>
     </main>

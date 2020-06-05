@@ -34,7 +34,7 @@
 		<ul class="nav navbar-nav">
 			<li class="nav-item"><a href="{{ url('/')}}" class="nav-link">Jobs</a></li>
 			<li class="nav-item"><a href="{{ url('/howtowritecv')}}" class="nav-link">How to write CV</a></li>
-			<li class="nav-item"><a href="{{ url('/aboutus')}}" class="nav-link">About Us</a></li>
+			<li class="nav-item"><a href="#" class="nav-link">About Us</a></li>
 			<!-- <li class="nav-item dropdown">
 				<a data-toggle="dropdown" class="nav-link dropdown-toggle" href="#">Services <b class="caret"></b></a>
 				<ul class="dropdown-menu">					
@@ -159,139 +159,16 @@
 </div>
     
 
-<main>
-    <div class="container" >
-    <ul class="list-group">
-        <h4>List Lastest Job</h4>
-    <li>
-        <div class="panel panel-default">
-            <div class="panel-body">
-                <div class="panel-info">
-                    <h5><strong>Executive Manager</strong></h5>
-                    <h6><strong>salary : 1500 $</strong></h6>
-                </div>
-                <div class="panel-more1">
-                    <h5><strong>Phnom Penh</strong></h5>
-                    <h6>expire : 12/06/2020</h6>
-                </div>
-                <div class="panel-more1">
-                    <h5><strong>Full-Time</strong></h5>
-                </div>
-                <div class="panel-more1">
-                    <img src='{{asset('images/wing.png') }}'/>
-                    <br /><span>company : Wing Bank</span>
-                </div>
-            </div>
-        </div>
-    </li>
-    <li>
-        <div class="panel panel-default">
-            <div class="panel-body">
-                <div class="panel-info">
-                    <h5><strong>Executive Manager</strong></h5>
-                    <h6><strong>salary : 1500 $</strong></h6>
-                </div>
-                <div class="panel-more1">
-                    <h5><strong>Phnom Penh</strong></h5>
-                    <h6>expire : 12/06/2020</h6>
-                </div>
-                <div class="panel-more1">
-                    <h5><strong>Full-Time</strong></h5>
-                </div>
-                <div class="panel-more1">
-                    <img src='{{asset('images/wing.png') }}'/>
-                    <br /><span>company : Wing Bank</span>
-                </div>
-            </div>
-        </div>
-    </li>
-    <li>
-        <div class="panel panel-default">
-            <div class="panel-body">
-                <div class="panel-info">
-                    <h5><strong>Executive Manager</strong></h5>
-                    <h6><strong>salary : 1500 $</strong></h6>
-                </div>
-                <div class="panel-more1">
-                    <h5><strong>Phnom Penh</strong></h5>
-                    <h6>expire : 12/06/2020</h6>
-                </div>
-                <div class="panel-more1">
-                    <h5><strong>Full-Time</strong></h5>
-                </div>
-                <div class="panel-more1">
-                    <img src='{{asset('images/wing.png') }}'/>
-                    <br /><span>company : Wing Bank</span>
-                </div>
-            </div>
-        </div>
-    </li>
-    <li>
-        <div class="panel panel-default">
-            <div class="panel-body">
-                <div class="panel-info">
-                    <h5><strong>Executive Manager</strong></h5>
-                    <h6><strong>salary : 1500 $</strong></h6>
-                </div>
-                <div class="panel-more1">
-                    <h5><strong>Phnom Penh</strong></h5>
-                    <h6>expire : 12/06/2020</h6>
-                </div>
-                <div class="panel-more1">
-                    <h5><strong>Full-Time</strong></h5>
-                </div>
-                <div class="panel-more1">
-                    <img src='{{asset('images/wing.png') }}'/>
-                    <br /><span>company : Wing Bank</span>
-                </div>
-            </div>
-        </div>
-    </li>
-    <li>
-        <div class="panel panel-default">
-            <div class="panel-body">
-                <div class="panel-info">
-                    <h5><strong>Executive Manager</strong></h5>
-                    <h6><strong>salary : 1500 $</strong></h6>
-                </div>
-                <div class="panel-more1">
-                    <h5><strong>Phnom Penh</strong></h5>
-                    <h6>expire : 12/06/2020</h6>
-                </div>
-                <div class="panel-more1">
-                    <h5><strong>Full-Time</strong></h5>
-                </div>
-                <div class="panel-more1">
-                    <img src='{{asset('images/wing.png') }}'/>
-                    <br /><span>company : Wing Bank</span>
-                </div>
-            </div>
-        </div>
-    </li>
-    <li>
-        <div class="panel panel-default">
-            <div class="panel-body">
-                <div class="panel-info">
-                    <h5><strong>Executive Manager</strong></h5>
-                    <h6><strong>salary : 1500 $</strong></h6>
-                </div>
-                <div class="panel-more1">
-                    <h5><strong>Phnom Penh</strong></h5>
-                    <h6>expire : 12/06/2020</h6>
-                </div>
-                <div class="panel-more1">
-                    <h5><strong>Full-Time</strong></h5>
-                </div>
-                <div class="panel-more1">
-                    <img src='{{asset('images/wing.png') }}'/>
-                    <br /><span>company : Wing Bank</span>
-                </div>
-            </div>
-        </div>
-    </li>
-</ul>
+<div class="container" style="width: 70%;margin-bottom:200px;">
+    <h3>About Us</h3>
+    <p style="text-align:justify">
+        AKARAJOB is Cambodia’s leading human resources and recruitment company, specializing in providing human capital resources and assets. Launched in 2009 by AKARAJOB INFORMATION (CAMBODIA) CO. LTD, we have grown from specializing in online recruitment to offline, sourcing employees of all standards for businesses and organizations across the country.
+
+Through our dedicated team of internationally-trained experts, we combine state-of-the-art technology, data analysis and a comprehensive network of partners to find the right person for your business. Calling on our well-established network of potential candidates, we conduct the screening process, saving your company time while ensuring you secure the perfect person to help your business grow.
+
+Our success and expertise has led to thousands of jobseekers using our services every month to search the more than 5,000 live job ads, and our shift to focus on providing companies with a tool to recruit the best staff possible has seen AKARAJOB become Cambodia’s elite recruitment agency.
+    </p>
 </div>
-    </main>
 
     <footer>
         <div class="container-fluid">
