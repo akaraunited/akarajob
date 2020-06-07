@@ -28,4 +28,8 @@ Route::get('/aboutus',function(){
 Route::get('/howtowritecvsingle',function(){
     return view('howtowritecvsingle');
 });
+Route::get('/jobclicksinglepage',function(){
+    return view('jobclicksinglepage');
+});
+
 

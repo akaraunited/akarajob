@@ -16,15 +16,7 @@
 
 <!-- internal style import -->
 <link rel="stylesheet" href="{{asset('css/style.css') }}">
-<style>
-    .panel-body:hover{
-    background-color: #f0f0f5;
-    cursor: pointer;
-}
-.list-group li{
-    border:0px;
-}
-</style>
+
 </head> 
 <body>
 <nav class="navbar navbar-default navbar-expand-lg navbar-light">
@@ -171,7 +163,7 @@
     <div class="container" >
     <ul class="list-group">
         <h4>List Lastest Job</h4>
-    <li class="clicktosinglepage">
+    <li>
         <div class="panel panel-default">
             <div class="panel-body">
                 <div class="panel-info">
@@ -192,7 +184,7 @@
             </div>
         </div>
     </li>
-    <li class="clicktosinglepage">
+    <li>
         <div class="panel panel-default">
             <div class="panel-body">
                 <div class="panel-info">
@@ -213,7 +205,7 @@
             </div>
         </div>
     </li>
-    <li class="clicktosinglepage">
+    <li>
         <div class="panel panel-default">
             <div class="panel-body">
                 <div class="panel-info">
@@ -234,7 +226,7 @@
             </div>
         </div>
     </li>
-    <li class="clicktosinglepage">
+    <li>
         <div class="panel panel-default">
             <div class="panel-body">
                 <div class="panel-info">
@@ -255,7 +247,7 @@
             </div>
         </div>
     </li>
-    <li class="clicktosinglepage">
+    <li>
         <div class="panel panel-default">
             <div class="panel-body">
                 <div class="panel-info">
@@ -276,7 +268,7 @@
             </div>
         </div>
     </li>
-    <li class="clicktosinglepage">
+    <li>
         <div class="panel panel-default">
             <div class="panel-body">
                 <div class="panel-info">

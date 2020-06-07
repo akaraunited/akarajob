@@ -227,7 +227,7 @@ body{
 }
 .list-group li {
     list-style: none;
-    border: 2px solid rgb(62, 62, 238);
+    /* border: 2px solid rgb(62, 62, 238); */
     /* width:800px; */
     margin-bottom: 20px;
 }
@@ -298,6 +298,11 @@ footer .fa-skype {
 .round-input-search{
     border-radius: 15px;
 }
+
+
+
+
+
 @media (min-width: 1200px){
     .form-inline .input-group {
         width: 300px;
