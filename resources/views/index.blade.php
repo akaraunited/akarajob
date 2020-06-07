@@ -173,6 +173,7 @@
         <h4>List Lastest Job</h4>
     <li class="clicktosinglepage">
         <div class="panel panel-default">
+            <a href="{{ url('/jobclicksinglepage')}}">
             <div class="panel-body">
                 <div class="panel-info">
                     <h5><strong>Executive Manager</strong></h5>
@@ -190,10 +191,12 @@
                     <br /><span>company : Wing Bank</span>
                 </div>
             </div>
+        </a>
         </div>
     </li>
     <li class="clicktosinglepage">
         <div class="panel panel-default">
+            <a href="{{ url('/jobclicksinglepage')}}">
             <div class="panel-body">
                 <div class="panel-info">
                     <h5><strong>Executive Manager</strong></h5>
@@ -211,10 +214,12 @@
                     <br /><span>company : Wing Bank</span>
                 </div>
             </div>
+        </a>
         </div>
     </li>
     <li class="clicktosinglepage">
         <div class="panel panel-default">
+            <a href="{{ url('/jobclicksinglepage')}}">
             <div class="panel-body">
                 <div class="panel-info">
                     <h5><strong>Executive Manager</strong></h5>
@@ -232,10 +237,12 @@
                     <br /><span>company : Wing Bank</span>
                 </div>
             </div>
+        </a>
         </div>
     </li>
     <li class="clicktosinglepage">
         <div class="panel panel-default">
+            <a href="{{ url('/jobclicksinglepage')}}">
             <div class="panel-body">
                 <div class="panel-info">
                     <h5><strong>Executive Manager</strong></h5>
@@ -253,10 +260,12 @@
                     <br /><span>company : Wing Bank</span>
                 </div>
             </div>
+        </a>
         </div>
     </li>
     <li class="clicktosinglepage">
         <div class="panel panel-default">
+            <a href="{{ url('/jobclicksinglepage')}}">
             <div class="panel-body">
                 <div class="panel-info">
                     <h5><strong>Executive Manager</strong></h5>
@@ -274,27 +283,7 @@
                     <br /><span>company : Wing Bank</span>
                 </div>
             </div>
-        </div>
-    </li>
-    <li class="clicktosinglepage">
-        <div class="panel panel-default">
-            <div class="panel-body">
-                <div class="panel-info">
-                    <h5><strong>Executive Manager</strong></h5>
-                    <h6><strong>salary : 1500 $</strong></h6>
-                </div>
-                <div class="panel-more1">
-                    <h5><strong>Phnom Penh</strong></h5>
-                    <h6>expire : 12/06/2020</h6>
-                </div>
-                <div class="panel-more1">
-                    <h5><strong>Full-Time</strong></h5>
-                </div>
-                <div class="panel-more1">
-                    <img src='{{asset('images/wing.png') }}'/>
-                    <br /><span>company : Wing Bank</span>
-                </div>
-            </div>
+        </a>
         </div>
     </li>
 </ul>
