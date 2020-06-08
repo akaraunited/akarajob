@@ -31,5 +31,8 @@ Route::get('/howtowritecvsingle',function(){
 Route::get('/jobclicksinglepage',function(){
     return view('jobclicksinglepage');
 });
+Route::get('/adminpages/formforpostjob',function(){
+    return view('/adminpages/formforpostjob');
+});
 
 
